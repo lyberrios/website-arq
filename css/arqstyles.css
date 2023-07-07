@@ -347,3 +347,28 @@ img {
         grid-row: 1 / 3;
     }
 }
+
+.footer {
+    height: 50rem;
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /*en vez de max-width o witdth se usa eso para cubrir toda la página*/
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer a {
+    color: var(--blanco);
+    font-size: 2rem;
+}
+
+.copyright {
+    text-align: center;
+    margin: 5rem 0 0 0;
+    font-size: 2rem;
+    padding: 1rem;
+    
+}
